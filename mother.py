@@ -5,8 +5,8 @@ import os
 import json
 import random
 
-# Define file paths
-customer_data_file = os.path.expanduser("~/Desktop/customers.json")  # Save on the desktop
+# Define file path relative to the current working directory
+customer_data_file = "customers.json"  # Save in the app directory
 
 # Load existing customer data with error handling
 try:
